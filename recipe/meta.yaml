@@ -24,8 +24,10 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-r6
   run:
     - r-base
+    - r-r6
 
 test:
   commands:
