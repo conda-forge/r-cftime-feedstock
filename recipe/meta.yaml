@@ -1,4 +1,4 @@
-{% set version = "1.6.0" %}
+{% set version = "1.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/CFtime_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/CFtime/CFtime_{{ version }}.tar.gz
-  sha256: 2525a54af6e083aade0ee0a3b41bcbeb9bca3a87e200b4dcfd0194f1aca3b0af
+  sha256: 1c5b8f886de5e46c051d6d18647b2b526d4d1528d557dfce36e304f3dbe03799
 
 build:
   number: 0
